@@ -23,11 +23,11 @@ POJ-104 (104 categories of programming problems) : [https://huggingface.co/datas
 ## How It Works
 
 The model converts code snippets into an embedding space where:
-- Same problem → embeddings are close (high cosine similarity)
+- Same category problems: Embeddings are close, so classified as **CLONE**
   
 ![c1](https://github.com/user-attachments/assets/5053ae01-4e94-478f-a57b-1ca1d695a87b)
   
-- Different problems → embeddings are far apart (low similarity)
+- Different category problems: Embeddings are far apart, so classified as **NOT A CLONE**
 
 ![c2](https://github.com/user-attachments/assets/4a12c127-8190-4487-8588-e21a9527f7ea)
 
