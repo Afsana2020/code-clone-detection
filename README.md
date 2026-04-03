@@ -1,6 +1,6 @@
 # Code Clone Detector
 
-A code clone detection system using a customized lightweight contrastive learning approach with CodeBERT. Given two code snippets, it determines whether they solve the same programming problem by analyzing semantic similarity rather than just syntactic patterns.
+A code clone detection system using deep learning and natural language processing (NLP) concepts that determines whether two code snippets solve the same programming problem by analyzing semantic similarity rather than just syntactic patterns.
 
 ## Use cases
 
@@ -22,12 +22,11 @@ POJ-104 (104 categories of programming problems) : [https://huggingface.co/datas
 
 ## How It Works
 
-The model converts code snippets into an embedding space where:
-- Same category problems: Embeddings are close, so classified as **CLONE**
+- Same category problems: Classified as "**CLONE**"
   
 ![c1](https://github.com/user-attachments/assets/5053ae01-4e94-478f-a57b-1ca1d695a87b)
   
-- Different category problems: Embeddings are far apart, so classified as **NOT A CLONE**
+- Different category problems: Classified as "**NOT A CLONE**"
 
 ![c2](https://github.com/user-attachments/assets/4a12c127-8190-4487-8588-e21a9527f7ea)
 
@@ -44,7 +43,7 @@ The model converts code snippets into an embedding space where:
 | **Dockerfile** | Container configuration | For Docker deployment |
 
 
-### Local Setup
+## Local Setup
 
 ```bash
 # Clone the repository
@@ -59,4 +58,20 @@ python app.py
 
 # Open browser to http://localhost:5000
 
+
+## Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| **Model** | Deep Learning |
+| **Backend** | Python web framework |
+| **Frontend** | HTML, CSS, JavaScript |
+| **Deployment** | HuggingFace |
+| **Language** | Python |
+
+## Contact
+
+- Email: afsanahena24@gmail.com
+
+- LinkedIn: https://www.linkedin.com/in/afsana-hena/
 
