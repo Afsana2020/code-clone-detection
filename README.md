@@ -59,7 +59,7 @@ python app.py
 # Open browser to http://localhost:5000
 ```
 
-** With Dockerfile: **
+**With Dockerfile:**
 ```bash
 docker build -t code-clone-detector .
 docker run -p 7860:7860 code-clone-detector
