@@ -46,8 +46,8 @@ POJ-104 (104 categories of programming problems) : [https://huggingface.co/datas
 
 ```bash
 # Clone the repository
-git clone https://github.com/Afsana2020/code-clone-detection-with-contrastive-learning.git
-cd code-clone-detection-with-contrastive-learning
+git clone https://github.com/Afsana2020/code-clone-detection.git
+cd code-clone-detection
 
 # Install dependencies
 pip install -r requirements.txt
