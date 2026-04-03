@@ -32,16 +32,14 @@ POJ-104 (104 categories of programming problems) : [https://huggingface.co/datas
 ![c2](https://github.com/user-attachments/assets/0b20b82f-b505-4afa-81f2-8264c1e533d5)
 
 
-## Project Files
+## Main project files
 
 | File | Description | Purpose |
 |------|-------------|---------|
 | **app.py** | Flask web application | Main server, API endpoints, routes |
 | **model.py** | Model architecture | LightweightModel class definition |
-| **lightweight_model.pt** | Trained model weights | CodeBERT-base fine-tuned with customized lightweight contrastive learning |
-| **config.json** | Configuration file | Threshold and model settings |
+| **lightweight_model.pt** | Trained model weights | The trained deep-learning model |
 | **index.html** | Web interface | Frontend UI (HTML/CSS/JS) |
-| **Dockerfile** | Container configuration | For Docker deployment |
 
 
 ## Local Setup
