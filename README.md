@@ -40,6 +40,7 @@ POJ-104 (104 categories of programming problems) : [https://huggingface.co/datas
 | **model.py** | Model architecture | LightweightModel class definition |
 | **lightweight_model.pt** | Trained model weights | The trained deep-learning model |
 | **index.html** | Web interface | Frontend UI (HTML/CSS/JS) |
+| **Dockerfile** | Container configuration	| For Docker deployment |
 
 
 ## Local Setup
@@ -56,6 +57,12 @@ pip install -r requirements.txt
 python app.py
 
 # Open browser to http://localhost:5000
+```
+
+** With Dockerfile: **
+```bash
+docker build -t code-clone-detector .
+docker run -p 7860:7860 code-clone-detector
 ```
 
 ## Tech Stack
