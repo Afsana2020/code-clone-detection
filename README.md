@@ -24,11 +24,12 @@ POJ-104 (104 categories of programming problems) : [https://huggingface.co/datas
 
 - Same category problems: Classified as "**CLONE**"
   
-![c1](https://github.com/user-attachments/assets/5053ae01-4e94-478f-a57b-1ca1d695a87b)
+![c1](https://github.com/user-attachments/assets/91ba5cc6-7970-4a79-9054-134119fd5547)
+
   
 - Different category problems: Classified as "**NOT A CLONE**"
 
-![c2](https://github.com/user-attachments/assets/4a12c127-8190-4487-8588-e21a9527f7ea)
+![c2](https://github.com/user-attachments/assets/0b20b82f-b505-4afa-81f2-8264c1e533d5)
 
 
 ## Project Files
