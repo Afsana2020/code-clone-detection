@@ -57,7 +57,7 @@ pip install -r requirements.txt
 python app.py
 
 # Open browser to http://localhost:5000
-
+```
 
 ## Tech Stack
 
