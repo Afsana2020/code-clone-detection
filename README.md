@@ -81,3 +81,6 @@ docker run -p 7860:7860 code-clone-detector
 
 - LinkedIn: https://www.linkedin.com/in/afsana-hena/
 
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
