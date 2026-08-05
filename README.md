@@ -36,6 +36,7 @@ POJ-104 (104 categories of programming problems) : [https://huggingface.co/datas
 
 | File | Description | Purpose |
 |------|-------------|---------|
+| **model training.ipynb** | Model training with lightweight contrastive learning approach | Python code |
 | **app.py** | Flask web application | Main server, API endpoints, routes |
 | **model.py** | Model architecture | LightweightModel class definition |
 | **lightweight_model.pt** | Trained model weights | The trained deep-learning model |
